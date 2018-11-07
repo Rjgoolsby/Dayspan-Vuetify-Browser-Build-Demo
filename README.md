@@ -1,4 +1,4 @@
-#This is a demo how to use Dayspan Vuetify in a browser based instance 
+# This is a demo how to use Dayspan Vuetify in a browser based instance 
  
 This demo is to show how to use dayspan-vuetify via script tags. This is based on the app.vue app based in the Dayspan-Vuetify Repo. 
 
@@ -7,7 +7,7 @@ See [Dayspan-Vuetify](https://github.com/ClickerMonkey/dayspan-vuetify) by [Clic
 See [app.vue](https://github.com/ClickerMonkey/dayspan-vuetify/blob/master/src/app.vue) for the demo that's in index.html and index.js.
 
 ## Step 1
-###File: [build->webpack.lib.conf.js](https://github.com/ClickerMonkey/dayspan-vuetify/blob/master/build/webpack.lib.conf.js)
+### File: [build->webpack.lib.conf.js](https://github.com/ClickerMonkey/dayspan-vuetify/blob/master/build/webpack.lib.conf.js)
 
 Comment out the externals function. Since we're importing this into the browser and this depends on moment and the dayspan.js library we need to package all these dependencies together since we can't import them like an es6 module.
 
@@ -102,7 +102,7 @@ if (config.lib.bundleAnalyzerReport) {
 module.exports = webpackConfig
 ```
 ## Step 2.
-###File: [src->plugin.js](https://github.com/ClickerMonkey/dayspan-vuetify/blob/master/src/plugin.js)
+### File: [src->plugin.js](https://github.com/ClickerMonkey/dayspan-vuetify/blob/master/src/plugin.js)
 
 There's a couple things to make this work with the demo docs. Some of this can be ignored but if you want to start with the src->app.vue template then you will need to do this.
 
